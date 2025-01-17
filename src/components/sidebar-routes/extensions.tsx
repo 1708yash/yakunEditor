@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExtensionsComponent = React.memo((props: any) => {
+const ExtensionsComponent = React.memo(() => {
     return (
         <div className="route">
             Extensions route

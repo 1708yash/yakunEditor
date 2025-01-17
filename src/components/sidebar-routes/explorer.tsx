@@ -9,7 +9,7 @@ import { store } from "../../shared/store";
 import {ReactComponent as AngleRightIcon} from '../../assets/svg/r-chevron.svg'
 import {ReactComponent as AngleLeftIcon} from '../../assets/svg/d-chevron.svg'
 
-const ExplorerRoute = React.memo((props: any) => {
+const ExplorerRoute = React.memo(() => {
     const folder_structure = useAppSelector(state => state.main.folder_structure);
     const content_main_div_ref = React.useRef<HTMLDivElement | undefined>(undefined);
     const dispatch = useAppDispatch();
